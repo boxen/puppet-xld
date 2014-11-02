@@ -5,7 +5,7 @@
 #   include xld
 class xld {
   package { 'XLD':
-    source   => 'http://xld.googlecode.com/files/xld-20130602.dmg',
+    source   => 'http://sourceforge.net/projects/xld/files/xld-20140504.dmg',
     provider => 'appdmg'
   }
 }
