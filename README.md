@@ -1,24 +1,7 @@
 #X Lossless Decoder:
 
-[![Build Status](https://travis-ci.org/boxen/puppet-xld.png?branch=master)](https://travis-ci.org/boxen/puppet-xld)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-##Lossless audio decoder for Mac OS X
-
-Installs [XLD](http://tmkk.undo.jp/xld/index_e.html).
-
-
-## Usage:
-
-``` puppet
-include xld
-```
-
-## Required Puppet Modules
-
-* boxen
-
-## Developing
-
-Write code.
-
-Run `script/cibuild`.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
